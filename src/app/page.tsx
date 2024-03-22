@@ -1,6 +1,5 @@
 //import Image from "next/image";
-//import styles from "./page.module.css";
-import  styles from "./Styles/page.module.css";
+import  styles from "./Styles/Landing.module.css";
 import "./Styles/global.css";
 import Topbar from "./components/Topbar";
 //import Stack from '@mui/material/Stack';
@@ -11,7 +10,8 @@ import Topbar from "./components/Topbar";
     return(
       <main className={styles.Hello}>
         <Topbar />
-        <h1>Temple Trading Hub :)</h1>
+       
+        <div className={styles.display_demo}></div>
        
       </main>
     );
